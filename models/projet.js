@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 const projetSchema = mongoose.Schema({
 
 nom : { type : String, required : true},
-dateDemandeFinancement : { type : String, required : true },
-etatProjet : { type : String, required : true }  
+etatProjet : { type : String, required : true }  ,
+dateDemandeFinancement : { type : String }
 
 });
 
